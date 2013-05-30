@@ -65,7 +65,7 @@ server.post('/user', function (req, res, next) {
     if (error) return next(new restify.InvalidArgumentError(JSON.stringify(error.errors)))
 
     // Send the user if no issues
-    res.send(user)
+    res.send(201, user)
   })
 })
 
