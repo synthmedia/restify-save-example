@@ -84,6 +84,9 @@ server.put('/user/:id', function (req, res, next) {
 
     // If there are any errors, pass them to next in the correct format
     if (error) return next(new restify.InvalidArgumentError(JSON.stringify(error.errors)))
+
+    // Send a 200 OK response
+    res.send()
   })
 })
 
