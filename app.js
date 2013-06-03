@@ -7,7 +7,7 @@ var restify = require('restify')
   , server = restify.createServer({ name: 'my-api' })
 
 // Start the server listening on port 3000
-server.listen(3000, function() {
+server.listen(3000, function () {
   console.log('%s listening at %s', server.name, server.url)
 })
 
