@@ -1,0 +1,11 @@
+{ "name": "my-api"
+, "version": "0.1.0"
+, "description": "Example of using restify with save and schema"
+, "main": "app.js"
+, "author": "Dom Udall <dom@synthmedia.co.uk>"
+, "license": "BSD"
+, "dependencies":
+  { "restify": "~2.6.0"
+  , "save": "0.0.19"
+  }
+}
